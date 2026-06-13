@@ -1,0 +1,32 @@
+blueprint.x
+
+├── active/
+│   └── current-project.md
+│
+├── engines/
+│   ├── question-engine.md
+│   ├── scope-reduction-engine.md
+│   ├── mvp-design-engine.md
+│   └── cost-optimization-engine.md
+│
+├── outputs/
+│   ├── product-specification.md
+│   ├── architecture-recommendation.md
+│   ├── implementation-roadmap.md
+│   └── master-build-prompt.md
+│
+├── agents/
+│   ├── strategist/
+│   ├── architect/
+│   └── planner/
+│
+├── memory/
+│   ├── assumptions.md
+│   ├── decisions.md
+│   ├── lessons-learned.md
+│   └── project-memory.md
+│
+└── templates/
+    ├── project-template.md
+    ├── feature-template.md
+    └── roadmap-template.md
