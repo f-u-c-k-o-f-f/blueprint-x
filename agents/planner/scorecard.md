@@ -52,19 +52,13 @@ Does the roadmap maximize speed to first working version?
 
 # Confidence Model
 
-Score confidence from 0-100 based on:
+See `agents/scorecard-shared.md` for shared Confidence Model and Final Verdict format.
 
-- Problem Clarity
-- User Clarity
-- Success Definition
-- Constraint Clarity
-- Assumption Validation
-
-Confidence = average score.
-
-Continue questioning until confidence exceeds 82%.
+**Focus:** Risks identified by the Planner relate to **execution dependencies and scheduling blockers**—not technical design risks. Sequencing, effort estimates, and dependency chains are primary.
 
 ## Final Verdict
+
+(See `scorecard-shared.md` for verdict format and structure.)
 
 🟢 APPROVED
 

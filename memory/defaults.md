@@ -1,136 +1,52 @@
-DEFAULTS:
-    Defaults exist to reduce unnecessary questioning and accelerate progress.
+# System Defaults & Verified Assumptions
 
-    Defaults may be used only when the decision is low-risk and does not materially alter project outcomes.
-    
-    
+Defaults exist to reduce unnecessary questioning and accelerate progress. Defaults may be overridden at any time by explicit user request.
 
-*** Good Default ***
-*** User does not specify:
-    Team Size
+---
 
-    Default:
-    Solo Builder
+## Active System Defaults
 
-*** Good Default ***
-*** User does not specify:
-    Hosting
+| Parameter | Default | Notes |
+|-----------|---------|-------|
+| **Scope** | Personal-use projects only | Reduces complexity; eliminates multi-user requirements |
+| **Builder** | Solo Builder | One person building useful software usually to help with their workflow |
+| **Target Platform** | Mobile + Desktop | Mac and iOS prioritized if complexity is high |
+| **Budget** | Minimal cost | Recurring expenses questioned; prefer free/open-source | trial ok
+| **Infrastructure** | Minimal | Static hosting or local preferred |
+| **Database** | None unless required | Markdown/JSON preferred for storage |
+| **Authentication** | None unless required | Can be delayed to post-MVP | if user wants basic security, add a four digit PIN/FACE ID lock/unlock as the default auth solution
+| **APIs** | Free only | Avoid paid APIs unless justified |
+| **Architecture** | Simplest viable | No microservices, Kubernetes, or premature scaling |
+| **Scale** | Single-user | No expansion or enterprise assumptions |
+| **Maintenance** | Lowest-maintenance option | Prefer solutions requiring minimal upkeep |
+| **Development Priority** | Completion over optimization | Finish first, optimize later |
 
-    Default:
-    Static Hosting
+---
 
-*** Good Default ***
-*** User does not specify:
-    Authentication
+## Verified Assumptions
 
-    Default:
-    None
+### Project Assumptions
 
-*** Bad Default ***
-*** User does not specify:
-    Legal Requirements
+- Users prefer guided questioning over blank forms
+- Most projects can be reduced to one primary problem
+- Mobile-first workflow is sufficient and preferred
 
-    Default:
-    None
-    
-    That’s dangerous. The system should ask.
-    
-*** Bad Default ***
-*** User does not specify:
-    User Data Storage
+### Technical Assumptions
 
-    Default:
-    Store Everything
-    
-    Also dangerous.
-    The system should ask.
+- Local storage is sufficient for MVP
+- Authentication can be delayed
 
-——
-    
-# System Defaults:
-Permanent decisions based on validated assumptions, lessons learned, or explicit user instruction. 
+---
 
-## 2026-06-10
+## Decision History
 
-Decision:
-Only support personal-use projects initially.
+**2026-06-10**
+- Only support personal-use projects initially
+- Reason: Reduces complexity and eliminates multi-user requirements
+- Status: Active
 
-Reason:
-Reduces complexity and eliminates multi-user requirements.
+---
 
-Status:
-Active
+## Override Rule
 
-## 2026-06-10
-
-Default Builder:
-Solo Builder
-
-## 2026-06-10
-
-Default Target Platform:
-Mobile + Desktop. Mac and IOS are FIRST CHOICE if complexity is unnecessarily high while considering multiple operating systems for the current project.
-
-## 2026-06-10
-Default Budget:
-Minimal cost
-
-## 2026-06-10
-
-Default Infrastructure:
-Minimal Infrastructure
-
-## 2026-06-10
-
-Database:
-None unless required
-
-## 2026-06-10
-
-Authentication:
-None unless specifically defined or required
-
-## 2026-06-10
-
-Hosting:
-Static hosting preferred or/AND local
-
-## 2026-06-10
-
-APIs:
-FREE apis okay. Avoid paid APIs
-
-## 2026-06-10
-
-Architecture:
-Simplest viable architecture.
-
-## 2026-06-10
-
-Scale:
-Single-user scale. Assume no desire for expansion or enterprise scheme unless specifically requested.
-
-## 2026-06-10
-
-Data Storage
-Markdown / JSON preferred.
-
-## 2026-06-10
-
-Maintenance
-Lowest maintenance option preferred
-
-## 2026-06-12
-
-Development Priority
-Completion over optimization 
-
-## 2026-06-12
-
-Default Override Rule
-
-Defaults are temporary assumptions.
-
-The user may override any default at any time.
-
-Explicit user requests or requirements ALWAYS supersede defaults.
+Defaults are temporary assumptions. The user may override any default at any time. Explicit user requests or requirements always supersede defaults.

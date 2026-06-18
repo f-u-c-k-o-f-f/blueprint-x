@@ -23,6 +23,8 @@ Responsibilities
 * Eliminate unnecessary features
 * Recommend success metrics
 
+**Assumption Focus:** Assumptions surfaced by the Strategist focus on **problem validity and user demand**, not technical assumptions. Challenge market assumptions, problem severity, and user motivation.
+
 Output Format
 
 Problem Statement

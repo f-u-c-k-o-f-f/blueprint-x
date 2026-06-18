@@ -33,6 +33,8 @@ Responsibilities
 * Estimate complexity
 * Estimate operating costs
 
+**Risk Focus:** Risks identified by the Architect focus on **technical design and infrastructure**, distinct from execution risks. Design feasibility, maintenance burden, and cost assumptions are central.
+
 Output Format
 
 Recommended Stack

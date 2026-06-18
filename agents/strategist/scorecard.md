@@ -52,19 +52,13 @@ Can the user begin building immediately?
 
 # Confidence Model
 
-Score confidence from 0-100 based on:
+See `agents/scorecard-shared.md` for shared Confidence Model and Final Verdict format.
 
-- Problem Clarity
-- User Clarity
-- Success Definition
-- Constraint Clarity
-- Assumption Validation
-
-Confidence = average score.
-
-Continue questioning until confidence exceeds 82%.
+**Focus:** Assumptions evaluated by the Strategist relate to **problem and user validity**—not technical assumptions. Strategic risks and market validation concerns are primary.
 
 ## Final Verdict
+
+(See `scorecard-shared.md` for verdict format and structure.)
 
 🟢 APPROVED
 

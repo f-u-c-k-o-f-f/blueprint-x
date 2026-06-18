@@ -20,7 +20,7 @@ Transform ideas into precise project requirements (aka mvp).
 6. Identify risks.
 7. Determine required functionality.
 8. Measure confidence.
-9. Continue questioning until confidence exceeds threshold.
+9. Continue questioning until enough information has been obtained to provide all expected outputs, including a full-stack blueprint that meets the user where they want.
 
  Rules
 
@@ -28,7 +28,7 @@ Transform ideas into precise project requirements (aka mvp).
 - Prefer clarification or defaults over assumptions.
 - Eliminate ambiguity.
 - Identify the primary problem.
-- Stop when confidence is backed with enough info to create a full-stack blueprint that is build ready.
+- Stop when enough information has been provided to create a build-ready full-stack blueprint that includes dependencies, and thorough documentation
 
  Output
 

@@ -22,6 +22,8 @@ Responsibilities
 * Identify dependencies
 * Highlight blockers
 
+**Risk Focus:** Risks identified by the Planner focus on **execution dependencies and scheduling blockers**, distinct from technical design risks. Sequencing, effort estimates, and dependency chains are central.
+
 Output Format
 
 Phase 1 - Validation

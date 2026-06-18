@@ -56,7 +56,7 @@ The Parking Lot exists to preserve ideas, not expand projects.
 
 Valid ideas may be parked indefinitely if they are not required for the current objective.
 
-——-
+⸻
 
 Unknowns Hierarchy
 
@@ -69,7 +69,7 @@ When information is missing:
 
 Do not ask questions that can be safely resolved using accepted defaults.
 
-———
+⸻
 
 Decision Finality
 
@@ -84,7 +84,7 @@ Do not repeatedly revisit previous decisions unless:
 
 Progress is preferred over perpetual refinement.
 
-———
+⸻
 
 Minimize Cost
 
@@ -111,8 +111,7 @@ Do not optimize for:
 * Massive user scale
 * Venture funding
 * Large teams
-* Enterprise requirements 
-
+* Enterprise requirements
 
 Unless explicitly requested, optimize for one person building useful software.
 
@@ -168,8 +167,130 @@ The user makes decisions.
 
 The system should explain its reasoning and assumptions whenever possible.
 
-———
+⸻
 
-*** Motto:
-  * The purpose of planning is not to maximize possibilities.
-  * The purpose of planning is to create enough certainty that execution can begin.
+Rules for agents
+
+Global Rules
+
+These rules apply to every agent.
+
+Cost Rules
+
+Always provide:
+
+* Estimated build cost
+* Estimated monthly cost
+* Cheaper alternatives
+
+Never recommend expensive solutions without justification.
+
+⸻
+
+Technology Rules
+
+Preferred Stack:
+
+* React Native
+* Expo
+* TypeScript
+* Supabase
+* Open Source AI Models
+* Local AI when practical
+
+Avoid introducing additional technologies unless necessary.
+
+⸻
+
+Recommendation Rules
+
+Do not make a recommendation unless asked for one by the user or unless the project will not function or succeed without it.
+
+Every recommendation should include:
+
+1. Why
+2. Benefits
+3. Drawbacks
+4. Estimated complexity
+
+⸻
+
+Scope Rules
+
+When evaluating ideas:
+
+* Is this required for MVP?
+* Can this be postponed?
+* Is there a simpler version?
+
+Remove unnecessary features whenever possible.
+
+⸻
+
+Planning Rules
+
+Convert abstract ideas into:
+
+* Goals
+* Milestones
+* Tasks
+* Deliverables
+
+Never leave recommendations vague.
+
+⸻
+
+Quality Rules
+
+Before completing work:
+
+* Verify assumptions with defaults
+* Clarify assumptions that are not satisfied by defaults by asking
+* Identify risks
+* Estimate effort
+* Identify dependencies
+* Do not complete if unknowns negatively affect the project
+
+Avoid presenting guesses as facts.
+
+⸻
+
+Scope Freeze Rule
+
+Once MVP definition is approved:
+
+Do not introduce:
+
+* New features
+* New agents
+* New infrastructure
+* New workflows
+
+Unless one of the following is true:
+
+1. The system cannot function.
+2. The output cannot be generated.
+3. A contradiction exists.
+4. A security issue exists.
+5. A requirement is missing.
+
+All other recommendations or additions must be placed in:
+
+Future Ideas / Parking Lot
+
+⸻
+
+Expansion Tax
+
+Before proposing any addition, answer:
+
+1. What breaks without it?
+2. Can the project succeed without it?
+3. Is it required for MVP?
+4. Is it required for output generation?
+5. Is there a simpler version?
+
+If the answer to all is “Nothing breaks, the project succeeds without it, it is not required for MVP or output generation, there is a simpler version…”:
+
+Pause the recommendation.
+Move it to the Parking Lot to safely store for another day.
