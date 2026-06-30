@@ -2,8 +2,6 @@
 
 An AI-powered planning workspace that transforms vague ideas into actionable software project blueprints.
 
-**Live:** [https://blueprint-x-swart.vercel.app](https://blueprint-x-swart.vercel.app)
-
 ## What is this?
 
 This is not a traditional application codebase. Instead, it's a personal workspace designed to act as a team of specialized consultants—evaluating, challenging, refining, and architecting ideas before development begins.
